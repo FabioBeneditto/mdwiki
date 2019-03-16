@@ -66,7 +66,7 @@ module.exports = function(grunt) {
             'tmp/main.min.css',
         ],
         jsFiles: [
-            'bower_components/jquery/jquery.min.js',
+            'bower_components/jquery/dist/jquery.min.js',
             'node_modules/handlebars/dist/handlebars.runtime.min.js',
             'extlib/js/jquery.colorbox.min.js',
             'extlib/js/prism.js',
@@ -78,7 +78,7 @@ module.exports = function(grunt) {
             'tmp/main.css'
         ],
         unminifiedJsFiles: [
-            'bower_components/jquery/jquery.js',
+            'bower_components/jquery/dist/jquery.js',
             'bower_components/bootstrap/js/affix.js',
             'bower_components/bootstrap/js/dropdown.js',
             'node_modules/handlebars/dist/handlebars.runtime.js',
